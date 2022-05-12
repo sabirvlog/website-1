@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/img1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 5px;
+
+}
+
+.logo img {
+    width: 40%;
+    border: 3px solid gray ;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navlist{
+    display: flex;
+    width: 70%;
+} 
+
+.navlist li {
+    list-style: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 10px 25px;
+    color: white;
+    background-color: red;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+}
+
+.navlist li a:hover {
+    color: ghostwhite;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.rightnav{
+   text-align: right;
+   width: 30%;
+   margin-right: 25px;
+}
+ .rightnav input{
+    padding: 10px 20px;
+    border: 2px solid red;
+    /*border-top-right-radius: 3px;*/
+    border-right: none;
+    /*border-bottom-right-radius: 3px;*/
+}
+  .rightnav input:hover {
+    color: ghostwhite;
+    background-color: orange;
+}
+.btn-sm{
+    padding: 10px 25px;
+    border: 2px solid orange;
+    border-left: none;
+    background: red;
+    color: ghostwhite;
+    text-transform: uppercase;
+}
+.btn-sm:hover{
+    color: ghostwhite;
+    background-color: orange;
+}
+.container-1{
+    margin: 30px 110px;
+}
+.container-1 h1{
+    margin-top: 140px;
+    color: aliceblue;
+    font-size: 56px;
+    width: 70%;
+    border-top: inset;
+}
+.container-1 h1 span{
+    color: red;
+}
+.para{
+    margin-top: 40px;
+    width: 60%;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.btn{
+    margin-left: 170px;
+}
+.btn button{
+    margin-right: 10px;
+    padding: 10px 30px;
+    border: 1px solid red;
+    font-size: 18px;
+    font-family: auto;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background-color: orange;
+    color: ghostwhite;
+    margin-bottom: 15px;
+    transition: .5s ease;
+}
+.btn button:focus{
+    outline: none;
+}
+.btn button:hover{
+    color: black;
+    background-color: ghostwhite;
+}
+.para-right{
+    width: 45%;
+}
+.para-right img{
+    width: 50%;
+    float: left; 
+    border-radius: 30%;
+    margin-left: 1090px; 
+    margin-top: -420px; 
+}
+/*  .................. Textarea starts from here .....................   */
+
+.textarea{
+    margin: 170px 100px;
+}
+.textarea img{
+    width: 35%;
+    float: left;
+    border-radius: 20%;
+    margin-left: 850px;
+    margin-top: -320px;
+}
+ 
+ .head{
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    background: black;
+    width: 53%;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 30px 1px;
+
+ }
+ .left-para{
+    text-align: justify;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 55%;
+    letter-spacing: 1.2px;
+ }
+
+ /*.......... next right side heading.............*/
+
+ .textarea-2{
+    margin: 200px 100px;
+    text-align: -webkit-right;   
+    /*..... -webkit- it is used for changing directions of image witha text liks left to right or right to left ......*/
+}
+.textarea-2 img{
+    width: 40%;
+    float: right;
+    border-radius: 20%;
+    margin-right: 800px;
+    margin-top: -330px;
+}
+ 
+ .right-head{
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    background: black;
+    width: 53%;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 30px 1px;
+
+ }
+ .right-para{
+    text-align: justify;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 55%;
+    letter-spacing: 1.2px;
+ }
+
+ footer{
+    color: ghostwhite;
+    background-color: green;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
